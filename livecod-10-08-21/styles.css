@@ -35,9 +35,6 @@
   .container {
     flex-direction: row;
   }
-  .products {
-    /* flex: 2; */
-  }
 }
 span {
   font-family: Verdana;
