@@ -13,7 +13,7 @@ import Spinner from './Spinner.jsx';
 // 3. after 2 sconds - hide Spinner && show Logout
 // 4. after Logout click - hide Logout & show Login
 
-class App extends React.Component {
+class Auth extends React.Component {
   state = {
     isLoggedIn: false,
     isProcessing: false,
@@ -47,8 +47,7 @@ class App extends React.Component {
     //   }
     //   return <Login onLogin={this.loginHandler} />;
     // }
-
-    isProcessing ? (
+    return isProcessing ? (
       <Spinner />
     ) : isLoggedIn ? (
       <Logout onLogout={this.logoutHandler} />
@@ -58,7 +57,7 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default Auth;
 
 // REACT
 // 0. make a layout
