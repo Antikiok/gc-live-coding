@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom';
 import React from 'react';
-import App from './App.jsx';
+import Auth from './Auth.jsx';
+
 import './index.scss';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Auth />, document.getElementById('root'));
